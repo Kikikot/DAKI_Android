@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">D\'AKI</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="p00_user">My Profile</string>
+    <string name="p00_new_lots">Search Lots</string>
+    <string name="p00_my_lots">My Lots</string>
+    <string name="p00_tickets">My Tickets</string>
+
+</resources>

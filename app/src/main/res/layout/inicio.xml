@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/profile"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/p00_user"
+        android:background="@drawable/btn_pressed"
+        android:onClick="menuOptionPressed"
+        android:clickable="true"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/all_lots"
+        android:layout_below="@+id/profile"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/p00_new_lots"
+        android:background="@drawable/btn_pressed"
+        android:onClick="menuOptionPressed"
+        android:clickable="true"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/my_lots"
+        android:layout_below="@+id/all_lots"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/p00_my_lots"
+        android:background="@drawable/btn_pressed"
+        android:onClick="menuOptionPressed"
+        android:clickable="true"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/tickets"
+        android:layout_below="@+id/my_lots"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/p00_tickets"
+        android:background="@drawable/btn_pressed"
+        android:onClick="menuOptionPressed"
+        android:clickable="true"
+        android:gravity="center_horizontal" />
+
+</RelativeLayout>
