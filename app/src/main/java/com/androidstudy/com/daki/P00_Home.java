@@ -1,12 +1,10 @@
 package com.androidstudy.com.daki;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
-
-import org.w3c.dom.Text;
 
 /**
  * Created by Enrique on 06/02/2015.
@@ -17,8 +15,15 @@ public class P00_Home extends Base{
         sms1 = "d'AKI";
         sms2 = "Regalos por la cara";
         exit = "Finish";
+        settings = getSharedPreferences(SETTINGS, Context.MODE_PRIVATE);
+        user=settings.getString(USER_ALIAS, NO_USER);
         super.onCreate(b);
-        inflateWith(R.layout.inicio);
+        inflateWith(R.layout.l00_home);
+    }
+
+    @Override
+    public void dialogYESAction() {
+
     }
 
     public void menuOptionPressed(View v){

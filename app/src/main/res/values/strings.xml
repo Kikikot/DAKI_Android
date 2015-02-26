@@ -11,4 +11,48 @@
     <string name="p00_my_lots">My Lots</string>
     <string name="p00_tickets">My Tickets</string>
 
+
+    <string name="p10_user">User:</string>
+    <string name="p10_pass">Pass:</string>
+    <string name="p11_repeatPass">Repeat pass:</string>
+    <string name="p10_email">Email:</string>
+    <string name="p11_province">Province:</string>
+    <string name="p10_city">City/Village:</string>
+    <string name="p10_userContact">Contact:</string>
+    <string name="p11_info">Contact information:</string>
+    <string name="p11_name">Name:</string>
+    <string name="p11_surname">Surname:</string>
+    <string name="p10_address">Address:</string>
+    <string name="p11_cp">Postcode:</string>
+
+    <string name="p10_connect">Connect</string>
+    <string name="p10_sign_in">Sign in</string>
+    <string name="p10_contact">Contact with admin</string>
+    <string name="p10_edit">Edit data</string>
+    <string name="p10_unsubscribe">Unsubscribe</string>
+    <string name="p10_disconnect">disconect</string>
+    <string name="p11_agree">I agree the</string>
+    <string name="p11_conditions">CONDITIONS</string>
+    <string name="p11_send">Send data</string>
+
+    <string name="p12_subject">SUBJECT:</string>
+    <string name="p12_message">MESSAGE:</string>
+    <string name="p12_mail">NEEDED EMAIL:</string>
+    <string name="p12_explain">If you have problems to send us this message, you can email us:</string>
+    <string name="p12_ourMail">dakidam@hotmail.com</string>
+    <string name="p12_sendMessage">Send message</string>
+
+    <string name="php_Select__IN_table_c1_to_cN__OUT_JSON_c1_to_cN">select.php</string>
+
+    <string name="php_Login__IN_user_pass__OUT_JSON_id_mail_address_cp_city_name_surname">login.php</string>
+    <string name="php_GetProvinces__IN_null__OUT_JSONARRAY_provinces_AS_province">getProvinces.php</string>
+    <string name="php_GetCities__IN_province__OUT_JSONARRAY_cities_AS_city">getCitiesFromProvince.php</string>
+    <string name="php_GetProvinceOfCity__IN_city__OUT_STRING_province">getProvinceFromCity.php</string>
+    <string name="php_checkUserExists__IN_user__OUT_STRING_0_OK_1_BAD">checkUser.php</string>
+    <string name="php_registerUser__IN_user_pass_mail_city_name_surname_address_cp__OUT_STRING_1_OK_0_BAD">registerUser.php</string>
+    <string name="php_editUser__IN_user_pass_mail_city_name_surname_address_cp__OUT_STRING_1_OK_0_BAD">editUser.php</string>
+    <string name="php_eraseUser__IN_user_pass__OUT_STRING_1_OK_0_BAD">eraseUser.php</string>
+    <string name="php_SendMessage__IN_user_subject_mail_message__OUT_STRING_1_OK_0_BAD">sendMessage.php</string>
+
+
 </resources>

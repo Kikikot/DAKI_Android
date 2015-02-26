@@ -1,6 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/btn_pressed"
+    android:padding="@dimen/naturalMargin"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/hUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/p10_user"/>
+
+    <EditText
+        android:id="@+id/tUser"
+        android:layout_marginBottom="@dimen/naturalMargin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="@dimen/naturalMargin"
+        android:id="@+id/hPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/p10_pass"/>
+
+    <EditText
+        android:id="@+id/tPass"
+        android:layout_marginBottom="@dimen/naturalMargin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:password="true" />
+
+    <Button
+        android:layout_marginTop="@dimen/naturalMargin"
+        android:layout_marginBottom="@dimen/naturalMargin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/p10_connect"
+        android:background="@drawable/btn_rounded"
+        android:padding="@dimen/btn_padding"
+        android:onClick="connect"/>
+
+    <Button
+        android:layout_marginTop="@dimen/naturalMargin"
+        android:layout_marginBottom="@dimen/naturalMargin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/p10_sign_in"
+        android:background="@drawable/btn_rounded"
+        android:padding="@dimen/btn_padding"
+        android:onClick="completeData"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/naturalMargin"
+        android:layout_marginLeft="@dimen/naturalMargin"
+        android:layout_marginRight="@dimen/naturalMargin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/p10_contact"
+        android:clickable="true"
+        android:onClick="contact"
+        android:textColor="@color/color_link"/>
 
 </LinearLayout>

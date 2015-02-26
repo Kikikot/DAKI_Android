@@ -12,6 +12,11 @@ public class P30_MyLots extends Base {
         sms2 = "MY LOTS";
         exit = "Back to HOME";
         super.onCreate(b);
-        inflateWith(R.layout.inicio);
+        inflateWith(R.layout.l00_home);
+    }
+
+    @Override
+    public void dialogYESAction() {
+
     }
 }

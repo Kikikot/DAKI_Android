@@ -19,4 +19,9 @@ public class P99_Notifications extends Base {
         TextView temp = (TextView)this.findViewById(R.id.numberOfNotifications);
         temp.setText("2");
     }
+
+    @Override
+    public void dialogYESAction() {
+
+    }
 }

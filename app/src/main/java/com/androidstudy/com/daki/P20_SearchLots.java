@@ -12,6 +12,11 @@ public class P20_SearchLots extends Base {
         sms2 = "SEARCH NEW LOTS";
         exit = "Back to HOME";
         super.onCreate(b);
-        inflateWith(R.layout.inicio);
+        inflateWith(R.layout.l00_home);
+    }
+
+    @Override
+    public void dialogYESAction() {
+
     }
 }

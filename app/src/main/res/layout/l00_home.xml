@@ -6,8 +6,8 @@
 
     <TextView
         android:id="@+id/profile"
-        android:paddingTop="20dp"
-        android:paddingBottom="20dp"
+        android:paddingTop="@dimen/naturalMargin"
+        android:paddingBottom="@dimen/naturalMargin"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
         android:layout_width="match_parent"
@@ -21,8 +21,8 @@
     <TextView
         android:id="@+id/all_lots"
         android:layout_below="@+id/profile"
-        android:paddingTop="20dp"
-        android:paddingBottom="20dp"
+        android:paddingTop="@dimen/naturalMargin"
+        android:paddingBottom="@dimen/naturalMargin"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
         android:layout_width="match_parent"
@@ -36,8 +36,8 @@
     <TextView
         android:id="@+id/my_lots"
         android:layout_below="@+id/all_lots"
-        android:paddingTop="20dp"
-        android:paddingBottom="20dp"
+        android:paddingTop="@dimen/naturalMargin"
+        android:paddingBottom="@dimen/naturalMargin"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
         android:layout_width="match_parent"
@@ -51,8 +51,8 @@
     <TextView
         android:id="@+id/tickets"
         android:layout_below="@+id/my_lots"
-        android:paddingTop="20dp"
-        android:paddingBottom="20dp"
+        android:paddingTop="@dimen/naturalMargin"
+        android:paddingBottom="@dimen/naturalMargin"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
         android:layout_width="match_parent"
